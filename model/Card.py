@@ -2,6 +2,10 @@ from model import Cost
 
 __author__ = 'Eshaan'
 
+DRONE = 'drone'
+ENGINEER = 'engineer'
+
+
 
 def JsonToCard(strJson):
     return Card(

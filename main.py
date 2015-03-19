@@ -1,9 +1,11 @@
 import json
-from model import Card
 from model.Card import JsonToCard
+from model.BoardState import BoardState
+from model.Player import Player
 
 __author__ = 'Eshaan'
 
+#TODO install wireshark and try to get json from there or something similar
 
 cardsFile = open("cards.txt")
 
@@ -14,5 +16,11 @@ cardList = []
 for card in cardMap:
     cardList.append(JsonToCard(card))
 
-for card in cardList:
-    print(str(card))
+p1Cards = []
+
+
+player1 = Player(p1Cards)
+player2 = Player()
+
+mBoardState = BoardState()
+

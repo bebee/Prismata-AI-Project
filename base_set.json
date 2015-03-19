@@ -1,0 +1,109 @@
+{
+  "cards": [
+    {
+      "name": "drone",
+      "effects": ["CLICK_GAIN+1+GOLD"],
+      "constructionTime": 1,
+      "health": 1,
+      "isblocker": true,
+      "cost": "3O1E"
+    },
+    {
+      "name": "engineer",
+      "effects": ["ATSTART_GAIN+1+ELECTRIC"],
+      "constructionTime": 1,
+      "health": 1,
+      "isblocker": true,
+      "cost": "2O"
+    },
+    {
+      "name": "wall",
+      "effects": [],
+      "constructionTime": 0,
+      "health": 3,
+      "isblocker": true,
+      "cost": "5O1B"
+    },
+    {
+      "name": "conduit",
+      "effects": ["ATSTART_GAIN+1+GREEN"],
+      "constructionTime": 0,
+      "health": 3,
+      "fragile" : true,
+      "isblocker": false,
+      "cost": "4O"
+    },
+    {
+      "name": "tarsier",
+      "effects": ["ATSTART_GAIN+1+ATTACK"],
+      "constructionTime": 2,
+      "health": 1,
+      "isblocker": false,
+      "cost": "4R"
+    },
+    {
+      "name": "blastforge",
+      "effects": ["ATSTART_GAIN+1+BLUE"],
+      "constructionTime": 0,
+      "health": 1,
+      "isblocker": false,
+      "cost": "5O"
+    },
+    {
+      "name": "animus",
+      "effects": ["ATSTART_GAIN+1+RED"],
+      "constructionTime": 0,
+      "health": 1,
+      "isblocker": true,
+      "cost": "6O"
+    },
+    {
+      "name": "drone",
+      "effects": [],
+      "constructionTime": 0,
+      "health": 1,
+      "isblocker": true,
+      "cost": "3E"
+    },
+    {
+      "name": "drone",
+      "effects": [],
+      "constructionTime": 0,
+      "health": 1,
+      "isblocker": true,
+      "cost": "3E"
+    },
+    {
+      "name": "drone",
+      "effects": [],
+      "constructionTime": 0,
+      "health": 1,
+      "isblocker": true,
+      "cost": "3E"
+    },
+    {
+      "name": "drone",
+      "effects": [],
+      "constructionTime": 0,
+      "health": 1,
+      "isblocker": true,
+      "cost": "3E"
+    },
+    {
+      "name": "drone",
+      "effects": [],
+      "constructionTime": 0,
+      "health": 1,
+      "isblocker": true,
+      "cost": "3E"
+    },
+    {
+      "name": "drone",
+      "effects": [],
+      "constructionTime": 0,
+      "health": 1,
+      "isblocker": true,
+      "cost": "3E"
+    }
+  ]
+}
